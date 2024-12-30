@@ -1125,7 +1125,8 @@ input, select, textarea {
 					margin-left: 16.66667%;
 				}
 
-				.row > .col-3-medium {
+				.row > .col-3-
+				medium {
 					width: 25%;
 				}
 
@@ -3783,3 +3784,16 @@ input, select, textarea {
 			}
 
 		}
+
+
+		.responsive-img-container {
+			text-align: center; /* Centers inline elements */
+		}
+		
+		img {
+			max-width: 100%; /* Makes the image responsive */
+			height: auto;    /* Maintains the aspect ratio */
+			display: block;  /* Prevents extra spacing below the image */
+			margin: 0 auto;  /* Centers the image horizontally */
+		}
+		
